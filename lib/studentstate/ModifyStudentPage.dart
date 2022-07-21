@@ -81,16 +81,16 @@ class _ModifyStudentPageState extends State<ModifyStudentPage> {
                                 Container(
                                   width: 150,
                                   height: 200,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      color: Colors.white),
+                                  // decoration: BoxDecoration(
+                                  //     borderRadius: BorderRadius.circular(10),
+                                  //     color: Colors.white),
                                   child: Column(
                                     children: [
                                       Expanded(
                                         child: Container(
                                           child: IconButton(
                                             icon: SvgPicture.asset(
-                                                "assets/Icons/Good.svg"),
+                                                "assets/Icons/Rest.svg"),
                                             iconSize: num,
                                             onPressed: () {
                                               if (isHovering == true) {
@@ -108,7 +108,7 @@ class _ModifyStudentPageState extends State<ModifyStudentPage> {
                                               setState(() {
                                                 _selection= 1;
                                               });
-                                              print('좋아요');
+                                              print('쉬고 싶어요');
                                             },
                                           ),
                                         ),
@@ -422,7 +422,7 @@ class _ModifyStudentPageState extends State<ModifyStudentPage> {
                                           setState(() {
                                             _selection=6;
                                           });
-                                          print('기뻐요');
+                                          print('슬퍼요');
                                         },
                                       ),
 
@@ -441,7 +441,7 @@ class _ModifyStudentPageState extends State<ModifyStudentPage> {
                                   ),
                                   Container(
                                     child: Text(
-                                      '기뻐요',
+                                      '슬퍼요',
                                       style: myFontStyle,
                                     ),
                                   )

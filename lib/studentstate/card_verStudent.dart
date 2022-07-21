@@ -37,7 +37,7 @@ class card_verStudent extends StatelessWidget {
       _text = "제 이야기를 들어주세요";
     } else {
       _icon = "assets/icons/Good.svg";
-      _text = "기뻐요";
+      _text = "슬퍼요";
     }
     return Column(
       children: [
