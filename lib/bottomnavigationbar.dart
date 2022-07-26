@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fireproject/communication_card/folder/folder_screen.dart';
 import 'package:fireproject/src/authentication/AccountPage.dart';
 import 'package:fireproject/board/boardList.dart';
 import 'package:fireproject/chatting/chatuser/user_list.dart';
@@ -54,7 +55,7 @@ class _bottomNavigationbarState extends State<bottomNavigationbar> {
     HomePage(),
     ModifyStudentPage(),
     BoardList(),
-    UserList(),
+    FolderScreen(),
     AccountPage()
   ];
 
