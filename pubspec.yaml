@@ -82,6 +82,10 @@ flutter:
       - assets/icons/
       - assets/icons/Setting.svg
       - assets/logo.png
+      - assets/Close-Square.png
+      - assets/gallery.png
+      - assets/Edit-Square.png
+      - assets/Camera.png
 
 
 

@@ -1,4 +1,5 @@
 import 'package:fireproject/board/freeboard/freeboard_screen.dart';
+import 'package:fireproject/communication_card/selection_card/selection_preview.dart';
 import 'package:flutter/material.dart';
 
 class BoardList extends StatelessWidget {
@@ -52,7 +53,14 @@ class BoardList extends StatelessWidget {
             ),
             Divider( thickness: 1,),
             TextButton.icon(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                    builder: (context)=> const preview()
+                )
+                );
+              },
               icon: Icon(Icons.ad_units, size: 30, color: Colors.amber,),
               label: Text("홍보게시판", style: myFontStyle,),
             ),
